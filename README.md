@@ -23,7 +23,8 @@
   
   AWATCH uses an OLED display (64x48 I2C SSD1306) and because of the size of
   less then 4 Kilobytes it can be compiled for many Arduino/AVR microcontrollers
-  (i.e. ATTINY or Digispark).
+  (i.e. ATTINY or Digispark).  
+  
   Setting Modes (alter with longpressing the button):
     0 ... Show time, no setting
     1 ... Reset seconds
@@ -32,8 +33,10 @@
     4 ... Add one hour
     5 ... Add 10 hours
     6 ... Add one day
+    
    Note: After the timeout of 5s AWATCH enters the sleep mode and resets the
          setting mode.
+   
    Tweaking:
    - Define the brightness of the display (0...255) with: #define CONTRAST 0x80
    - Define the timeout (in ms) with: #define TIMEOUT 5000
