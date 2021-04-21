@@ -1,22 +1,26 @@
-# awatch
-A Simple Arduino Watch
+# AWATCH - A Simple Arduino Watch
 
 
   ____________________
+  
    PREAMBLE
   ____________________
+  
   AWATCH is a simple watch that shows the time on an OLED display and can be
   operated with one button only. It shows hours, minutes, seconds, day and
-  battery voltage.
+  battery voltage.  
   To save power AWATCH uses the watchdog timer of AVR microcontrollers. So the
   display remains dark and the microcontroller in sleep mode until the button
   ist pressed. Longpressing the button alters the setting state, while
-  shortpressing alters the setable value.
-  Have fun
+  shortpressing alters the setable value.  
+  
+  Have fun  
   deetee
   ____________________
-   OPERATION
+  
+  OPERATION
   ____________________
+  
   AWATCH uses an OLED display (64x48 I2C SSD1306) and because of the size of
   less then 4 Kilobytes it can be compiled for many Arduino/AVR microcontrollers
   (i.e. ATTINY or Digispark).
