@@ -25,14 +25,14 @@
   less then 4 Kilobytes it can be compiled for many Arduino/AVR microcontrollers
   (i.e. ATTINY or Digispark).  
   
-  Setting Modes (alter with longpressing the button):
-    0 ... Show time, no setting
-    1 ... Reset seconds
-    2 ... Add one minute
-    3 ... Add 10 minutes
-    4 ... Add one hour
-    5 ... Add 10 hours
-    6 ... Add one day
+  Setting Modes (alter with longpressing the button):  
+    0 ... Show time, no setting  
+    1 ... Reset seconds  
+    2 ... Add one minute  
+    3 ... Add 10 minutes  
+    4 ... Add one hour  
+    5 ... Add 10 hours  
+    6 ... Add one day  
     
    Note: After the timeout of 5s AWATCH enters the sleep mode and resets the
          setting mode.
